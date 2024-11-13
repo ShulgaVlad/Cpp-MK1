@@ -100,4 +100,3 @@ namespace Lab1
         }
     }
 }
-A
