@@ -1,8 +1,8 @@
-using Lab1;
+using ModuleControle1;
 using System;
 using Xunit;
 
-namespace Lab1_Test
+namespace ModuleControle1_Test
 {
     public class CubeTests
     {
