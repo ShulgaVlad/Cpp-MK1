@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace Lab1
+namespace ModuleControle1
 {
     public class Cube
     {
