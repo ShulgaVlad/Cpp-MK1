@@ -62,7 +62,7 @@ namespace ModuleControle1
         static void Main(string[] args)
         {
             // Read the input file INPUT.TXT
-            string inputFilePath = Path.Combine(AppContext.BaseDirectory, "..", "..", "..", "..", "Lab1", "INPUT.txt");
+            string inputFilePath = Path.Combine(AppContext.BaseDirectory, "..", "..", "..", "..", "ModuleControle1", "INPUT.txt");
             string[] lines = File.ReadAllLines(inputFilePath);
 
             // Initialize the first cube
@@ -95,7 +95,7 @@ namespace ModuleControle1
             }
 
             // Output the result to OUTPUT.TXT
-            string outputFilePath = Path.Combine(AppContext.BaseDirectory, "..", "..", "..", "..", "Lab1", "OUTPUT.txt");
+            string outputFilePath = Path.Combine(AppContext.BaseDirectory, "..", "..", "..", "..", "ModuleControle1", "OUTPUT.txt");
             File.WriteAllText(outputFilePath, cubesMatch ? "YES" : "NO");
         }
     }
